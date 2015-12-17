@@ -13,7 +13,7 @@
 using namespace std;
 class NumMatrix {
 public:
-    NumMatrix(vector<vector<int>> &matrix) {
+    NumMatrix(vector<vector<int> > &matrix) {
         if(matrix.size() == 0){
             return;
         }
@@ -51,16 +51,14 @@ public:
 // numMatrix.sumRegion(1, 2, 3, 4);
 int main(int argc, const char * argv[])
 {
-    vector<vector<int>> nums = {{3, 0, 1, 4, 2},
-                                {5, 6, 3, 2, 1},
-                                {1, 2, 0, 1, 5},
-                                {4, 1, 0, 1, 7},
-                                {1, 0, 3, 0, 5}};
-//    vector<vector<int>> nums = {{1}};
+//    vector<vector<int> > nums = {{3, 0, 1, 4, 2},
+//                                {5, 6, 3, 2, 1},
+//                                {1, 2, 0, 1, 5},
+//                                {4, 1, 0, 1, 7},
+//                                {1, 0, 3, 0, 5}};
+    vector<vector<int> > nums(1, vector<int>(1,1));
     NumMatrix my(nums);
-    std::cout << my.sumRegion(2,1,4,3) << endl;
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << my.sumRegion(0,0,0,0) << endl;
     return 0;
 }
 
