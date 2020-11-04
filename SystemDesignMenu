@@ -1,0 +1,13 @@
+opic SD: 4S, SQL vs NoSQL, Cache (ram or disk), Hashing (consistent, range), Primary/Seconary (MongoDB etc) vs P2P (Cassandra), Elastic Search, 
+              
+Design Pricipal (islation, encasulation, extensible, plug able), 
+
+gRPC (protobuf (object -> binary -> wire binary), json (object -> string -> wire binary) , JDL),
+
+Message System (SQS, Kafka, AMQ, etc),
+
+TCP, UDP, keeping connecting or reconnect, how to store chat thread (sharding)
+
+web socket, notifcation (GCM, Apple),
+
+Messager (FB friend talk).
